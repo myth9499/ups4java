@@ -1,0 +1,47 @@
+2014-12-18 13:05:08 [ pool-1-thread-1 ] 连接失败!
+  2014-12-18 13:06:21 [ pool-1-thread-2 ] 连接失败!
+  2014-12-18 13:31:00 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:37)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:17:29 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:41)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:20:38 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:20:43 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:21:26 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)

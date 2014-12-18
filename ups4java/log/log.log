@@ -1,0 +1,98 @@
+2014-12-18 12:44:55 [ main ] the server is ok!
+  2014-12-18 12:49:57 [ main ] the server is ok!
+  2014-12-18 12:54:22 [ main ] 服务器已经启动!
+  2014-12-18 12:54:24 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:36)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 12:57:23 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:36)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 13:00:04 [ main ] 服务器已经启动!
+  2014-12-18 13:00:22 [ main ] 服务器已经启动!
+  2014-12-18 13:00:56 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-18 13:00:59 [ pool-1-thread-1 ] 开始将信息转发到[10.0.137.17端口：7012
+  2014-12-18 13:02:27 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-18 13:02:30 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
+  2014-12-18 13:02:47 [ main ] 服务器已经启动!
+  2014-12-18 13:02:57 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-18 13:03:00 [ pool-1-thread-1 ] 传入信息:helgaogeaw 121raga
+  2014-12-18 13:03:00 [ pool-1-thread-1 ] 开始将信息转发到[10.0.137.17端口：7012
+  2014-12-18 13:04:11 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-18 13:04:13 [ pool-1-thread-2 ] 传入信息:leolageawg
+  2014-12-18 13:04:13 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
+  2014-12-18 13:05:08 [ pool-1-thread-1 ] 连接失败!
+  2014-12-18 13:06:21 [ pool-1-thread-2 ] 连接失败!
+  2014-12-18 13:06:33 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-18 13:06:34 [ pool-1-thread-2 ] 传入信息:llll
+  2014-12-18 13:06:34 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
+  2014-12-18 13:30:35 [ main ] 渠道:[]netbank服务器已经启动!
+  2014-12-18 13:30:57 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:31:00 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:37)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 13:46:15 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:46:44 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:56:35 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:57:13 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:57:35 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:58:24 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 13:58:51 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 14:15:26 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 14:17:29 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:41)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:17:35 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 14:19:26 [ main ] 渠道:[netbank]服务器已经启动!
+  2014-12-18 14:20:38 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:20:43 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:21:26 [ main ] 地址已在使用
+  java.net.BindException: 地址已在使用
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
+	at cn.bankdev.SocketServer.main(SocketServer.java:32)
+2014-12-18 14:22:31 [ main ] 渠道:[网上银行]服务器已经启动!
+  

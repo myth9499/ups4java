@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChnlReg>
+	<chnldetail>
+		<chnlname>netbank</chnlname>
+		<chnlmark>网上银行</chnlmark>
+		<chnlport>9999</chnlport>
+	</chnldetail>
+	<chnldetail>
+		<chnlname>mbank</chnlname>
+		<chnlmark>手机银行</chnlmark>
+		<chnlport>9998</chnlport>
+	</chnldetail>
+	<chnldetail>
+		<chnlname>pmts</chnlname>
+		<chnlmark>人行系统</chnlmark>
+		<chnlport>9997</chnlport>
+	</chnldetail>
+</ChnlReg>
