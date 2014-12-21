@@ -14,7 +14,7 @@ public class ChnlReg {
 	private	int	port;
 	
 	private List <Element> allLeafs = new ArrayList<Element> ();
-	File	file	=	new	File("/item/workspace/ups4java/cfg/chnlreg.xml");
+	File	file	=	new	File("/home/dev/git/ups4java/ups4java/cfg/chnlreg.xml");
 
 	public String getChnlname() {
 		return chnlname;

@@ -5,5 +5,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="/home/dev/git/ups4java/ups4java/lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="/home/dev/git/ups4java/ups4java/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/dev/git/ups4java/ups4java/lib/jaxen-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

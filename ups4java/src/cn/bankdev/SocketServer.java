@@ -18,17 +18,16 @@ import org.apache.log4j.Logger;
 public	class	SocketServer{
 
 	static Logger logger = Logger.getLogger(SocketServer.class);
-	private	static	final	int	PORT=9998;
-	private	static	int loop=0;
+	private	static	int loop=0;//用来做负载分配使用
 	private	static	List<Socket> list = new ArrayList<Socket>();
 	private	ExecutorService	exec;
 	private	ServerSocket	server;
-	static Hashtable<String,TranMap[]>	tmap=	new	Hashtable<String,TranMap[]>();
+	static Hashtable<String,TranMap>	tmap=	new	Hashtable<String,TranMap>();
 	public	static	void	main(String[]	args){
-		TranMap	tm[]	=	new	TranMap[10];
-		tm[0]=new TranMap(0,"IXO102","10.0.137.17",7012);
-		tm[1]= new TranMap(1,"IXO102","10.0.135.49",7013);
-		tmap.put("IXO102", tm);
+
+		InitTranMap itm = new	InitTranMap();
+		tmap=itm.getTmap();
+		/** 循环启动不同渠道的监听 **/
 		new	SocketServer("netbank");
 	}
 	public	SocketServer(String chnlname){
@@ -85,9 +84,9 @@ public	class	SocketServer{
 			pw.println(msg);
 			**/
 		/** 获取配置进行转发 **/
-		logger.info("开始将信息转发到["+tmap.get("IXO102")[loop%2].getIpport(loop%2).getServip()+"端口："+tmap.get("IXO102")[loop%2].getIpport(loop%2).getPort());
+		logger.info("开始将信息转发到["+tmap.get("IXO102").getIpport(loop%2).getServip()+"端口："+tmap.get("IXO102").getIpport(loop%2).getPort());
 		try{
-			clisocket	=	new	Socket(tmap.get("IXO102")[loop%2].getIpport(loop%2).getServip(),tmap.get("IXO102")[loop%2].getIpport(loop%2).getPort());
+			clisocket	=	new	Socket(tmap.get("IXO102").getIpport(loop%2).getServip(),tmap.get("IXO102").getIpport(loop%2).getPort());
 		}catch(IOException	e1)
 		{
 			pw	=	new	PrintWriter(socket.getOutputStream(),true);
@@ -95,6 +94,7 @@ public	class	SocketServer{
 			logger.error("连接失败!");
 			pw.close();
 			socket.close();
+			loop++;
 			return ;
 		}
 		pw	=	new	PrintWriter(clisocket.getOutputStream(),true);

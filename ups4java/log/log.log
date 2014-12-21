@@ -1,98 +1,78 @@
-2014-12-18 12:44:55 [ main ] the server is ok!
-  2014-12-18 12:49:57 [ main ] the server is ok!
-  2014-12-18 12:54:22 [ main ] 服务器已经启动!
-  2014-12-18 12:54:24 [ main ] 地址已在使用
+2014-12-19 00:02:24 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:02:49 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:03:02 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:03:03 [ pool-1-thread-1 ] 传入信息:hello
+  2014-12-19 00:03:03 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:03:03 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:03:17 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:03:20 [ pool-1-thread-1 ] 传入信息:word
+  2014-12-19 00:03:20 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:03:20 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:03:23 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:03:25 [ pool-1-thread-1 ] 传入信息:1111
+  2014-12-19 00:03:25 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:03:25 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:03:26 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:03:27 [ pool-1-thread-1 ] 传入信息:22222
+  2014-12-19 00:03:27 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:03:27 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:03:28 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:03:29 [ pool-1-thread-1 ] 传入信息:4444
+  2014-12-19 00:03:29 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:03:29 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:04:38 [ main ] 地址已在使用
   java.net.BindException: 地址已在使用
 	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:36)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 12:57:23 [ main ] 地址已在使用
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:38)
+	at cn.bankdev.SocketServer.main(SocketServer.java:31)
+2014-12-19 00:04:48 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:10:24 [ main ] 地址已在使用
   java.net.BindException: 地址已在使用
 	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:36)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 13:00:04 [ main ] 服务器已经启动!
-  2014-12-18 13:00:22 [ main ] 服务器已经启动!
-  2014-12-18 13:00:56 [ main ] 处理来自[/127.0.0.1]的交易信息
-  2014-12-18 13:00:59 [ pool-1-thread-1 ] 开始将信息转发到[10.0.137.17端口：7012
-  2014-12-18 13:02:27 [ main ] 处理来自[/127.0.0.1]的交易信息
-  2014-12-18 13:02:30 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
-  2014-12-18 13:02:47 [ main ] 服务器已经启动!
-  2014-12-18 13:02:57 [ main ] 处理来自[/127.0.0.1]的交易信息
-  2014-12-18 13:03:00 [ pool-1-thread-1 ] 传入信息:helgaogeaw 121raga
-  2014-12-18 13:03:00 [ pool-1-thread-1 ] 开始将信息转发到[10.0.137.17端口：7012
-  2014-12-18 13:04:11 [ main ] 处理来自[/127.0.0.1]的交易信息
-  2014-12-18 13:04:13 [ pool-1-thread-2 ] 传入信息:leolageawg
-  2014-12-18 13:04:13 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
-  2014-12-18 13:05:08 [ pool-1-thread-1 ] 连接失败!
-  2014-12-18 13:06:21 [ pool-1-thread-2 ] 连接失败!
-  2014-12-18 13:06:33 [ main ] 处理来自[/127.0.0.1]的交易信息
-  2014-12-18 13:06:34 [ pool-1-thread-2 ] 传入信息:llll
-  2014-12-18 13:06:34 [ pool-1-thread-2 ] 开始将信息转发到[10.0.137.17端口：7012
-  2014-12-18 13:30:35 [ main ] 渠道:[]netbank服务器已经启动!
-  2014-12-18 13:30:57 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:31:00 [ main ] 地址已在使用
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:38)
+	at cn.bankdev.SocketServer.main(SocketServer.java:31)
+2014-12-19 00:10:52 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:11:04 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:11:06 [ pool-1-thread-1 ] 传入信息:hello
+  2014-12-19 00:11:06 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:11:06 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:12:28 [ main ] 地址已在使用
   java.net.BindException: 地址已在使用
 	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:37)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 13:46:15 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:46:44 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:56:35 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:57:13 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:57:35 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:58:24 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 13:58:51 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 14:15:26 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 14:17:29 [ main ] 地址已在使用
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:38)
+	at cn.bankdev.SocketServer.main(SocketServer.java:31)
+2014-12-19 00:12:39 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:13:35 [ main ] 地址已在使用
   java.net.BindException: 地址已在使用
 	at java.net.PlainSocketImpl.socketBind(Native Method)
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
 	at java.net.ServerSocket.bind(ServerSocket.java:376)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:41)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 14:17:35 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 14:19:26 [ main ] 渠道:[netbank]服务器已经启动!
-  2014-12-18 14:20:38 [ main ] 地址已在使用
-  java.net.BindException: 地址已在使用
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.ServerSocket.bind(ServerSocket.java:376)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 14:20:43 [ main ] 地址已在使用
-  java.net.BindException: 地址已在使用
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.ServerSocket.bind(ServerSocket.java:376)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 14:21:26 [ main ] 地址已在使用
-  java.net.BindException: 地址已在使用
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
-	at java.net.ServerSocket.bind(ServerSocket.java:376)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:128)
-	at cn.bankdev.SocketServer.<init>(SocketServer.java:39)
-	at cn.bankdev.SocketServer.main(SocketServer.java:32)
-2014-12-18 14:22:31 [ main ] 渠道:[网上银行]服务器已经启动!
+	at cn.bankdev.SocketServer.<init>(SocketServer.java:38)
+	at cn.bankdev.SocketServer.main(SocketServer.java:31)
+2014-12-19 00:13:42 [ main ] 渠道:[网上银行]服务器已经启动!
+  2014-12-19 00:13:51 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:13:51 [ pool-1-thread-1 ] 传入信息:111
+  2014-12-19 00:13:51 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:13:51 [ pool-1-thread-1 ] 连接失败!
+  2014-12-19 00:13:54 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:13:55 [ pool-1-thread-1 ] 传入信息:2222
+  2014-12-19 00:13:55 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.104端口：10000
+  2014-12-19 00:13:56 [ main ] 处理来自[/127.0.0.1]的交易信息
+  2014-12-19 00:13:57 [ pool-1-thread-1 ] 传入信息:3333
+  2014-12-19 00:13:57 [ pool-1-thread-1 ] 开始将信息转发到[192.168.1.108端口：10000
+  2014-12-19 00:13:57 [ pool-1-thread-1 ] 连接失败!
   
