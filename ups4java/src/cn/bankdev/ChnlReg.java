@@ -7,14 +7,17 @@ import java.util.List;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
 
+
 /** 通过解析chnlreg.xml配置获取到对应的配置信息 **/
 public class ChnlReg {
 	private	String	chnlname;
 	private	String	chnlmark;
 	private	int	port;
+	private	List<String> allchnl = new	ArrayList<String>();
+	List<Element> listchnl =new	ArrayList<Element>() ;
 	
 	private List <Element> allLeafs = new ArrayList<Element> ();
-	File	file	=	new	File("/home/dev/git/ups4java/ups4java/cfg/chnlreg.xml");
+	File	file	=	new	File("cfg/chnlreg.xml");
 
 	public String getChnlname() {
 		return chnlname;
@@ -25,6 +28,8 @@ public class ChnlReg {
 			Document doc = reader.read(file2);
 			Element root = doc.getRootElement();//获取根节点
 			System.out.println("root =	"+root.getName());
+			
+			listchnl=doc.selectNodes("ChnlReg/chnldetail/chnlname");
 			Iterator <Element> allSons = root.elementIterator();
 			while (allSons.hasNext()) {
 				getLeafNodes(allSons.next());
@@ -72,5 +77,13 @@ public class ChnlReg {
 		this.port = port;
 	}
 	
-	
+	public	List	getallchnl(){
+		this.getAllLeafNode(file);
+		for(int i=0;i<listchnl.size();i++)
+		{
+			System.out.println("1111");
+			allchnl.add(listchnl.get(i).getText());
+		}
+		return allchnl;
+	}
 }

@@ -3,17 +3,17 @@
 	<trancode>IXO102</trancode>
 	<trandes>往帐交易渠道</trandes>
 	<trannode>
-		<destip>192.168.1.108</destip>
+		<destip>192.168.1.100</destip>
 		<destport>10000</destport>
 		<timeout>60</timeout>
 	</trannode>
 	<trannode>
-		<destip>192.168.1.104</destip>
+		<destip>192.168.1.100</destip>
 		<destport>10000</destport>
 		<timeout>60</timeout>
 	</trannode>
 	<trannode>
-		<destip>192.168.1.101</destip>
+		<destip>192.168.1.100</destip>
 		<destport>10000</destport>
 		<timeout>60</timeout>
 	</trannode>

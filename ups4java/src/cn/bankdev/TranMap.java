@@ -27,6 +27,9 @@ public class TranMap {
 	public Ipportmap getIpport(int i) {
 		return ipport[i];
 	}
+	public	int	getIpportCnt(){
+		return	this.ipport.length;
+	}
 	public	void InitTranMap(int i,String	trancode,String	servip,int	port){
 			if(i>10)
 			{
